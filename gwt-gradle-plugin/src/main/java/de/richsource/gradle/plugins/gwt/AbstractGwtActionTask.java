@@ -134,11 +134,11 @@ public abstract class AbstractGwtActionTask extends DefaultTask {
 		this.modules = modules;
 	}
 	
-	protected void args(Object... args) {
+	public void args(Object... args) {
 		this.args.addAll(Arrays.asList(args));
 	}
 	
-	protected void jvmArgs(Object... args) {
+	public void jvmArgs(Object... args) {
 		this.jvmArgs.addAll(Arrays.asList(args));
 	}
 
